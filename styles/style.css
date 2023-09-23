@@ -1,0 +1,168 @@
+.banner-container {
+  width: 970px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/hero-background/passat-variant-gte-01.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: zoomInOut 10s infinite alternate;
+  z-index: -1;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+
+.banner-logo {
+  padding: 10px 0px 0px 390px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.banner-logo::before,
+.banner-logo::after {
+  content: "";
+  position: absolute;
+  top: 33px;
+  height: 2px;
+  background-color: white;
+}
+
+.banner-logo::before {
+  left: 0;
+  width: 775px;
+}
+
+.banner-logo::after {
+  right: 0;
+  width: 156px;
+}
+
+.banner-logo_img {
+  padding: 10px 0px 0px 390px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.banner-logo_link {
+  position: absolute;
+  top: 19px;
+  left: 780px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  text-align: left;
+  color: #fff;
+}
+
+.banner-text h1 {
+  font-family: 'VW Bold';
+  font-size: xx-large;
+  margin-bottom: 2px;
+}
+
+.banner-text h2 {
+  font-family: 'VW Regular';
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.banner-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.banner-form_select {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.banner-form_select button {
+  font-family: 'VW Regular';
+  background-color: #00b0f0;
+  transition: background-color 0.5s;
+  color: #001e50;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1px solid #001e50;
+}
+
+.banner-form_select button:hover {
+  font-family: 'VW Regular';
+  background-color: white;
+  transition: background-color 0.5s;
+  color: #00b0f0;
+  border: 1px solid #00b0f0;
+  cursor: pointer;
+}
+
+
+
+
+.banner-form_calculate button {
+  font-family: 'VW Bold';
+}
+
+.banner-form_result {
+  font-family: 'VW Bold';
+  display: flex;
+}
+
+.banner-form_result_title {
+  font-family: 'VW Regular';
+}
+
+.banner-form_result_amount {
+  font-family: 'VW Bold';
+  padding-left: 35px;
+}
+
+.banner-form_text {
+  font-family: 'VW Regular';
+}
+
+.banner-form_calculate,
+.banner-form_result {
+  margin-bottom: 10px;
+}
+
+.banner-info {
+  font-family: 'VW Regular';
+  font-size: x-small;
+  padding-left: 50px;
+}

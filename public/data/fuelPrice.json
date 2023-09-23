@@ -1,0 +1,394 @@
+[
+  {
+    "currency": "euro",
+    "lpg": "0,396",
+    "diesel": "1,353",
+    "gasoline": "1,361",
+    "country": "Albania"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,065",
+    "diesel": "0,099",
+    "gasoline": "0,164",
+    "country": "Algeria"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,000",
+    "gasoline": "1,050",
+    "country": "Andorra"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,885",
+    "gasoline": "0,940",
+    "country": "Armenia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,770",
+    "diesel": "1,080",
+    "gasoline": "1,117",
+    "country": "Austria"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,346",
+    "diesel": "0,661",
+    "gasoline": "0,661",
+    "country": "Belarus"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,387",
+    "diesel": "1,273",
+    "gasoline": "1,195",
+    "country": "Belgium"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,563",
+    "diesel": "1,095",
+    "gasoline": "1,100",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,434",
+    "diesel": "0,971",
+    "gasoline": "0,940",
+    "country": "Bulgaria"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,462",
+    "diesel": "1,089",
+    "gasoline": "1,053",
+    "country": "Croatia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "1,055",
+    "gasoline": "0,000",
+    "country": "Cyprus"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,511",
+    "diesel": "1,033",
+    "gasoline": "1,114",
+    "country": "Czech Republic"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "1,271",
+    "gasoline": "1,352",
+    "country": "Denmark"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,321",
+    "gasoline": "0,441",
+    "country": "Egypt"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,664",
+    "diesel": "1,258",
+    "gasoline": "1,293",
+    "country": "Estonia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "1,250",
+    "gasoline": "1,344",
+    "country": "Finland"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,868",
+    "diesel": "1,251",
+    "gasoline": "1,292",
+    "country": "France"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,562",
+    "gasoline": "0,577",
+    "country": "Georgia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,609",
+    "diesel": "1,139",
+    "gasoline": "1,259",
+    "country": "Germany"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,761",
+    "diesel": "1,184",
+    "gasoline": "1,411",
+    "country": "Greece"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,654",
+    "diesel": "0,961",
+    "gasoline": "0,938",
+    "country": "Hungary"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "1,348",
+    "gasoline": "1,372",
+    "country": "Iceland"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,690",
+    "diesel": "1,169",
+    "gasoline": "1,265",
+    "country": "Ireland"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,748",
+    "diesel": "1,820",
+    "gasoline": "1,307",
+    "country": "Israel"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,598",
+    "diesel": "1,368",
+    "gasoline": "1,483",
+    "country": "Italy"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,714",
+    "gasoline": "1,239",
+    "country": "Jordan"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,510",
+    "diesel": "1,000",
+    "gasoline": "1,050",
+    "country": "Kosovo"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,325",
+    "gasoline": "0,192",
+    "country": "Kuwait"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,490",
+    "diesel": "0,000",
+    "gasoline": "0,000",
+    "country": "Latvia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,730",
+    "diesel": "0,718",
+    "gasoline": "1,430",
+    "country": "Lebanon"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,097",
+    "gasoline": "0,129",
+    "country": "Libya"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,439",
+    "diesel": "0,000",
+    "gasoline": "0,000",
+    "country": "Lithuania"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,368",
+    "diesel": "0,000",
+    "gasoline": "0,000",
+    "country": "Luxembourg"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,447",
+    "diesel": "0,942",
+    "gasoline": "1,072",
+    "country": "Macedonia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "1,280",
+    "gasoline": "1,410",
+    "country": "Malta"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,529",
+    "diesel": "0,788",
+    "gasoline": "0,884",
+    "country": "Moldova"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,580",
+    "diesel": "1,260",
+    "gasoline": "1,310",
+    "country": "Montenegro"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,645",
+    "gasoline": "0,703",
+    "country": "Morocco"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,744",
+    "diesel": "1,339",
+    "gasoline": "1,582",
+    "country": "Netherlands"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,755",
+    "diesel": "1,362",
+    "gasoline": "1,379",
+    "country": "Norway"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,364",
+    "diesel": "0,848",
+    "gasoline": "0,793",
+    "country": "Poland"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,718",
+    "diesel": "1,279",
+    "gasoline": "1,334",
+    "country": "Portugal"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,565",
+    "diesel": "0,989",
+    "gasoline": "0,968",
+    "country": "Romania"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,264",
+    "diesel": "0,578",
+    "gasoline": "0,572",
+    "country": "Russia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,184",
+    "gasoline": "0,220",
+    "country": "Saudi Arabia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,646",
+    "diesel": "1,373",
+    "gasoline": "1,262",
+    "country": "Serbia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,593",
+    "diesel": "1,234",
+    "gasoline": "1,339",
+    "country": "Slovakia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,674",
+    "diesel": "1,193",
+    "gasoline": "1,255",
+    "country": "Slovenia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,677",
+    "diesel": "1,122",
+    "gasoline": "1,280",
+    "country": "Spain"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,822",
+    "diesel": "1,282",
+    "gasoline": "1,150",
+    "country": "Sweden"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,805",
+    "diesel": "1,269",
+    "gasoline": "1,212",
+    "country": "Switzerland"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,370",
+    "gasoline": "0,497",
+    "country": "Tunisia"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,219",
+    "diesel": "0,729",
+    "gasoline": "0,702",
+    "country": "Türkiye"
+  },
+  {
+    "currency": "euro",
+    "lpg": "-",
+    "diesel": "0,610",
+    "gasoline": "0,463",
+    "country": "United States"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,347",
+    "diesel": "0,801",
+    "gasoline": "0,829",
+    "country": "Ukraine"
+  },
+  {
+    "currency": "euro",
+    "lpg": "0,717",
+    "diesel": "1,331",
+    "gasoline": "1,293",
+    "country": "United Kingdom"
+  }
+]
