@@ -122,6 +122,12 @@
   border: 1px solid #001e50;
 }
 
+.banner-form_select button.selected {
+  background-color: white;
+  color: #00b0f0;
+  border: 1px solid #00b0f0;
+}
+
 .banner-form_select button:hover {
   font-family: 'VW Regular';
   background-color: white;

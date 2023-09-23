@@ -1,4 +1,4 @@
-import fuelPrices from '../public/data/fuelPrice.json';
+import fuelPrices from '/src/data/fuelPrice.json';
 
 const locationApi = 'https://api.ipregistry.co/';
 const publicAPIKey = 'clv2xohxdhdoxniw';
