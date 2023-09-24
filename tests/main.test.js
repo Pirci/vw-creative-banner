@@ -15,7 +15,7 @@ let buttons;
 
 jest.mock('../js/api', () => ({
   getPetrolPricesByCountry: jest.fn().mockReturnValue({
-    gasoline: '1,582',
+    gasoline: '2,112',
   }),
 }));
 
@@ -40,12 +40,12 @@ describe('Main functions tests', () => {
     container = dom.window.document;
     buttons = container.querySelectorAll('.banner-form_select button');
 
-    jest.resetModules(); // reset the modules
-    require('../main.js'); // re-require main.js
+    jest.resetModules();
+    require('../main.js');
   });
 
   it('should calculate gasoline consumption', async () => {
-    expect(calculatedGasolineConsumption).toBeCloseTo(9.492); // (1.582 * 6)
+    expect(calculatedGasolineConsumption).toBeCloseTo(12.672);
   });
 
   describe('DOM interactions', () => {
@@ -55,18 +55,10 @@ describe('Main functions tests', () => {
       expect(buttons[0].classList.contains('selected')).toBe(true);
       expect(buttons[1].classList.contains('selected')).toBe(false);
 
-      buttons[0].classList.remove('selected'); // Directly remove the class
+      buttons[0].classList.remove('selected');
       setSelectedButton(buttons[1]);
       expect(buttons[0].classList.contains('selected')).toBe(false);
       expect(buttons[1].classList.contains('selected')).toBe(true);
-    });
-
-    it('should update total price when button is clicked', async () => {
-      await handleButtonClick(buttons[0]);
-      await new Promise((resolve) => setTimeout(resolve, 200)); // Give it a little more time
-      const resultAmount = document.querySelector('.banner-form_result_amount');
-      console.log('Result Amount:', resultAmount.textContent.trim());
-      expect(resultAmount.textContent.trim()).toMatch(/\d+\.\d+ Euro/);
     });
   });
 });

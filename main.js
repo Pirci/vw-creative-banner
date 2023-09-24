@@ -36,7 +36,7 @@ export const handleButtonClick = async (button) => {
 
 const updateGasolineInfo = async () => {
   const petrolPrices = await getPetrolPricesByCountry();
-  const country = petrolPrices.country; // Örneğin, API'den 'country' adında bir anahtar dönüyorsa
+  const country = petrolPrices.country;
   const gasoline = petrolPrices.gasoline;
 
   const infoElement = document.querySelector('.banner-info p:nth-child(2)');
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.banner-form_select button').forEach((button) => {
     button.addEventListener('click', function (event) {
       event.stopPropagation();
-      handleButtonClick(this); // Use the exposed function here
+      handleButtonClick(this);
     });
   });
 });

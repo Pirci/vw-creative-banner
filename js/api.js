@@ -7,7 +7,7 @@ const defaultPetrolPrices = {
   currency: 'euro',
   lpg: '0,744',
   diesel: '1,339',
-  gasoline: '1,582',
+  gasoline: '2,112',
   country: 'Netherlands',
 };
 
