@@ -34,7 +34,18 @@ export const handleButtonClick = async (button) => {
   ).innerText = `${formattedTotalPrice} Euro`;
 };
 
+const updateGasolineInfo = async () => {
+  const petrolPrices = await getPetrolPricesByCountry();
+  const country = petrolPrices.country; // Örneğin, API'den 'country' adında bir anahtar dönüyorsa
+  const gasoline = petrolPrices.gasoline;
+
+  const infoElement = document.querySelector('.banner-info p:nth-child(2)');
+  infoElement.innerText = `**${country}/${gasoline}`;
+};
+
 document.addEventListener('DOMContentLoaded', function () {
+  updateGasolineInfo();
+
   document.addEventListener('click', function (event) {
     if (!event.target.matches('.banner-form_select button')) {
       document

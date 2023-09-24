@@ -172,3 +172,9 @@
   font-size: x-small;
   padding-left: 50px;
 }
+
+.banner-info p {
+  font-family: 'VW Regular';
+  padding-right: 30px;
+  display: inline;
+}

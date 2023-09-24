@@ -115,7 +115,7 @@
     "currency": "euro",
     "lpg": "0,868",
     "diesel": "1,251",
-    "gasoline": "1,292",
+    "gasoline": "1,871",
     "country": "France"
   },
   {
@@ -129,7 +129,7 @@
     "currency": "euro",
     "lpg": "0,609",
     "diesel": "1,139",
-    "gasoline": "1,259",
+    "gasoline": "1,467",
     "country": "Germany"
   },
   {
@@ -269,7 +269,7 @@
     "currency": "euro",
     "lpg": "0,744",
     "diesel": "1,339",
-    "gasoline": "1,582",
+    "gasoline": "2,112",
     "country": "Netherlands"
   },
   {
