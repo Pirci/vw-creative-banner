@@ -1,4 +1,4 @@
-import { getPetrolPricesByCountry } from './js/api';
+import { getPetrolPricesByCountry } from './src/api/locationApi.js';
 
 const CONSUMPTION_DIFFERENCE = 6;
 
@@ -45,16 +45,6 @@ const updateGasolineInfo = async () => {
 
 document.addEventListener('DOMContentLoaded', function () {
   updateGasolineInfo();
-
-  document.addEventListener('click', function (event) {
-    if (!event.target.matches('.banner-form_select button')) {
-      document
-        .querySelectorAll('.banner-form_select button')
-        .forEach((button) => {
-          button.classList.remove('selected');
-        });
-    }
-  });
 
   document.querySelectorAll('.banner-form_select button').forEach((button) => {
     button.addEventListener('click', function (event) {
