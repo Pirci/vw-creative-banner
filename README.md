@@ -6,6 +6,10 @@ Welcome to the Fuel Savings Calculator project for the Volkswagen GTE Series. Th
 
 Preview: https://vw-creative-banner.netlify.app/
 
+## Preview
+
+![vw-creative-banner](/public/images/demo/project-demo.gif)
+
 ## 📌 Overview
 
 With increasing fuel prices and the urge to adopt more sustainable means of transportation, Volkswagen aims to assist potential customers in making informed decisions. The Fuel Savings Calculator leverages geolocation-based APIs to fetch current fuel prices and, combined with the average consumption for GTE series, presents a calculated 3-year total fuel savings.
